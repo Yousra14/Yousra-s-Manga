@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 208, 208);
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.wallpaper{
+    position: absolute;
+    z-index:-1;
+    width: 100%;
+    background-image: url(./efc8443ef85c747376f4d927cea44bb5.jpg);
+    height: 100%;
+}
+header{
+    height: 35em;
+    position: relative;
+    color: black;
+}
+.menu{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 26%;
+}
+.web-menu a {
+    color:brown;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.web-menu a:hover{
+    border-bottom: goldenrod solid;
+}
+.hamburger{
+    display: none;
+}
+.mobile__menu{
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.mobile__menu a {
+    color: snow;
+    text-decoration: none;
+    display: block;
+}
+ .main{
+    margin-right: 1em;
+   }
+   section .container{
+    display: grid;
+    grid-template-columns: 65% 35%;
+   }
+   article{
+    border-bottom: 1px black solid;
+    padding: 30px 0;
+   }
+   article .post-content::first-letter{
+    font-size: 2em;
+    float:left;
+   }
+   article img{
+    width: 70%;
+   }
+   article .readmore{
+    margin-top: 30px;
+    text-align: right;
+   }
+   h1{
+       color:rgb(74, 74, 182);
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: large;
+   }
+   .post-content{
+       margin-top: 3%;
+   }
+   .mb-5{
+    margin-bottom: 3em;
+   }
+   
+   .sidebar h3{
+    font-weight: bolder;
+    font-size: 1em;
+   }
+   .sidebar .categories a{
+    display: block;
+    padding: 3px 0;
+    font-size: 1em;
+    text-decoration: none;
+    color:#033048;
+    font-weight: light;
+   }
+   .sidebar .advert{
+    background-color: white;
+    padding: 5px;
+    height:400px;
+   }
+   footer{
+    background-color: #121212;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+   }
+   
+   footer .socials{
+    margin: 30px 0 50px 0;
+   }
+
+   #main{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 4%;
+    padding: 35px; 
+   }
+   #main img {
+    height: 300px; 
+    width: 90%;
+    border: 3px solid  rgb(17, 16, 16);
+    /* margin-top: 6%; */
+} 
+.footer-one{
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 0;
+   }
+   
+   .footer-one .btn{
+    background-color: #033048;
+    text-decoration: none;
+    padding: 10px 5em;
+    color: white;
+    border-radius: 5px;
+   }
+   section .music{
+    width: 27%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h5{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+}
+.message{
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#submit{
+width: 30%;
+margin-left: 35%;
+font-size: 1.5em;
+}
+h4{
+    margin-left: 10%;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width:480px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .web-menu{
+        display: none;
+    }
+    .hamburger{
+        display:block;
+    }
+    .wallpaper{
+        background-size: cover;
+        height: 50%;
+        }
+    header{
+            height: 20em;
+        }
+        
+}
